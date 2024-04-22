@@ -34,5 +34,5 @@ if __name__ == '__main__':
     websocket_thread = threading.Thread(target=websocket_thread)
     websocket_thread.daemon = True
     websocket_thread.start()
-    app.run(debug=True)
+ 
 
